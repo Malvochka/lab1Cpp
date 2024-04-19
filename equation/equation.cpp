@@ -9,7 +9,7 @@ void readcoeff(double&a,double&b,double&c)
 	if(a==0.0)
 	{
 		cout<<"Коэффициент а не может быть равным 0. Уравнение не является квадратным";
-		return 1;
+		exit(1);
 	}
 	 cout<<"\nВведите коэффициент b: "; cin>>b;
 	cout<<"\nВведите коэффициент c: "; cin>>c;
